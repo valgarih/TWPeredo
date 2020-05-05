@@ -1,0 +1,9 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="A">
+	<xs:complexType mixed="true">
+	<xs:sequence>
+	<xs:element name="B" type="xs:string"/>
+	</xs:sequence>
+	</xs:complexType>
+	</xs:element>
+</xs:schema>

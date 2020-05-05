@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><preguntas>
+    <id id="Pregunta 1">
+        <multimedia/>
+        <pregunta tipo="pattern">De que color es el cielo?</pregunta>
+        <respuesta  calificacion="100" id="1">[Aa]zul</respuesta>
+        <respuesta  calificacion="30" id="2">[Rr]ojo</respuesta>
+        <respuesta  calificacion="60" id="3">[Aa]marillo</respuesta>
+    </id>    
+
+        <id id="Pregunta 2">
+        <multimedia/>
+        <pregunta tipo="FV">Pregunta 2?</pregunta>
+        <respuesta correcta="true" id="1">True</respuesta>
+        <respuesta correcta="false" id="2">False</respuesta>
+    </id>
+    <id id="Pregunta 8">
+        <multimedia/>
+        <pregunta tipo="pattern"> Capital de Colombia</pregunta>
+        <respuesta  calificacion="100" id="1"> [Bb]ogota</respuesta>
+        <respuesta  calificacion="0" id="2">[Jj]alisco</respuesta>
+        <respuesta  calificacion="0" id="3">[Ff]rancia</respuesta>
+    </id>
+    
+    <id id="Imagen">
+        <multimedia>1.jpg</multimedia>
+        <pregunta tipo="pattern">De que color es la playera de la mujer?</pregunta>
+        <respuesta calificacion="100" id="1">[Rr]osa</respuesta>
+        <respuesta calificacion="60" id="2">[Vi]ioleta</respuesta>
+        <respuesta calificacion="0" id="3">[Cc]afe</respuesta>
+    </id>
+    
+    <id id="sonido">
+        <multimedia>Grillo.mp3</multimedia>
+        <pregunta tipo="FV">El animal que se escucha es una vaca?</pregunta>
+        <respuesta correcta="true" id="1">True</respuesta>
+        <respuesta correcta="false" id="2">False</respuesta>
+    </id>
+    
+    <id id="Video">
+        <multimedia>IMG_1004.mp4</multimedia>
+        <pregunta tipo="pattern">Cual es la serie de tv que se muestra?</pregunta>
+        <respuesta calificacion="100" id="1">[Gg]reys [Aa]natomy</respuesta>
+        <respuesta calificacion="60" id="2">[Rr]osa de [Gg]uadalupe</respuesta>
+        <respuesta calificacion="0" id="3">[Bb]ob [Ee]sponja</respuesta>
+    </id>
+</preguntas>

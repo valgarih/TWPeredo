@@ -1,0 +1,8 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="str">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+</xs:schema>

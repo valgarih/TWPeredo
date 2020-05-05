@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<!--
+box-shadow: a b c d;
+
+a desplazamiento horizontal de la sombra
+b desplazamiento vertical de la sombra
+c difuminado
+d color de la sombra
+-->
+<head>
+    <title>Sombra con CSS 3</title>
+	<style type="text/css">
+	#cajasombra{
+		background-color: #ddd;
+		width: 300px;
+		padding: 40px; /* espacio generico para izquierda, derecha, arriba y abajo*/
+		
+		box-shadow: 50px 50px 0 #333;
+		-webkit-box-shadow: 50px 50px 0  #333;
+		-moz-box-shadow: 50px 50px 0 #333;
+	}
+	</style>
+</head>
+<body>
+   <div id="cajasombra">
+	Esta es una capa con sombra creada con CSS 3.
+   </div>
+   
+</body>
+</html>
+

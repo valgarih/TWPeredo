@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<root>  
+    <usuario1>
+        <userName  name="valery" type="userName"></userName>
+        <password name="hola" type="password"></password>
+        <tipo type="administrador"></tipo>
+    </usuario1>
+    <usuario2>
+        <userName name="itzel" type="userName"></userName>
+        <password name="123" type="password"></password>
+        <tipo type="administrador"></tipo>
+    </usuario2>           
+</root>

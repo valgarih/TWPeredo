@@ -1,0 +1,7 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name='sonido'>
+  <xs:complexType>
+    <xs:attribute name='src' type='xs:anyURI'/>
+  </xs:complexType>
+</xs:element> 
+</xs:schema>

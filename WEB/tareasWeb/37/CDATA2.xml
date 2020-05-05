@@ -1,0 +1,10 @@
+<!DOCTYPE raiz 
+[
+<!ELEMENT raiz(a)>
+<ELEMENT a ANY>
+<ATTLIST animal CDATA #REQUIRED>
+]>
+
+<raiz>
+<a animal="perro">35</a>
+</raiz>

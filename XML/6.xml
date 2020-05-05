@@ -1,0 +1,5 @@
+<!DOCTYPE raiz SYSTEM "dtd1.dtd">
+
+<raiz>
+<a atributo1="uno"></a>
+</raiz>

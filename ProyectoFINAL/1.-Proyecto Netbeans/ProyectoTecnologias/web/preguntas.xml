@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><preguntas>
+    <id id="Pregunta 1">
+        <multimedia/>
+        <pregunta tipo="pattern">De que color es el cielo?</pregunta>
+        <respuesta  calificacion="100" id="1">[Aa]zul</respuesta>
+        <respuesta  calificacion="30" id="2">rojo</respuesta>
+        <respuesta  calificacion="60" id="3">[Aa]marillo</respuesta>
+    </id>
+    <id id="Pregunta 2">
+        <multimedia/>
+        <pregunta tipo="pattern">Que animal hace el sonido "muuu"?</pregunta>
+        <respuesta  calificacion="100" id="1">vaca</respuesta>
+        <respuesta  calificacion="10" id="2">conejo</respuesta>
+        <respuesta  calificacion="0" id="3">lagartija</respuesta>
+    </id>
+    
+    <id id="Pregunta 10">
+        <multimedia/>
+        <pregunta tipo="pattern">Que animal hace el sonido "muuu"?</pregunta>
+        <respuesta  calificacion="100" id="1">vaca</respuesta>
+        <respuesta  calificacion="10" id="2">conejo</respuesta>
+        <respuesta  calificacion="0" id="3">lagartija</respuesta>
+    </id>
+    <id id="Pregunta 8">
+        <multimedia/>
+        <pregunta tipo="pattern"> Capital de Colombia</pregunta>
+        <respuesta  calificacion="100" id="1"> Bogota</respuesta>
+        <respuesta  calificacion="0" id="2">Jalisco</respuesta>
+        <respuesta  calificacion="0" id="3">Francia</respuesta>
+    </id>
+    
+    <id id="Imagen">
+        <multimedia>1.jpg</multimedia>
+        <pregunta tipo="pattern">De que color es la playera de la mujer?</pregunta>
+        <respuesta calificacion="100" id="1">Rosa</respuesta>
+        <respuesta calificacion="60" id="2">violeta</respuesta>
+        <respuesta calificacion="0" id="3">cafe</respuesta>
+    </id>
+    
+    <id id="Sonido">
+        <multimedia>Grillo.mp3</multimedia>
+        <pregunta tipo="pattern">Que animal es el que se escucha?</pregunta>
+        <respuesta calificacion="100" id="1">grillo</respuesta>
+        <respuesta calificacion="60" id="2">rana</respuesta>
+        <respuesta calificacion="0" id="3">caballo</respuesta>
+    </id>
+    
+    <id id="Video">
+        <multimedia>IMG_1004.mp4</multimedia>
+        <pregunta tipo="pattern">Cual es la serie de tv que se muestra?</pregunta>
+        <respuesta calificacion="100" id="1">Greys Anatomy</respuesta>
+        <respuesta calificacion="60" id="2">Rosa de guadalupe</respuesta>
+        <respuesta calificacion="0" id="3">Bob Esponja</respuesta>
+    </id>
+</preguntas>

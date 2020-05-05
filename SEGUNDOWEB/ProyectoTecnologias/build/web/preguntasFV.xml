@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><preguntas>
+    <id id="Pregunta 1">
+        <multimedia/>
+        <pregunta tipo="FV">Pregunta?</pregunta>
+        <respuesta correcta="true" id="1">True</respuesta>
+        <respuesta correcta="false" id="2">False</respuesta>
+    </id>
+    <id id="Pregunta 2">
+        <multimedia/>
+        <pregunta tipo="FV">Pregunta 2?</pregunta>
+        <respuesta correcta="true" id="1">True</respuesta>
+        <respuesta correcta="false" id="2">False</respuesta>
+    </id>
+
+    <id id="video2">
+        <multimedia>IMG_1004.mp4</multimedia>
+        <pregunta tipo="FV">La profesion de la mujer es mesera?</pregunta>
+        <respuesta correcta="true" id="1">True</respuesta>
+        <respuesta correcta="false" id="2">False</respuesta>
+    </id>
+    
+    <id id="imagen2">
+        <multimedia>1.jpg</multimedia>
+        <pregunta tipo="FV">hay dos hombres en la imagen?</pregunta>
+        <respuesta correcta="true" id="1">True</respuesta>
+        <respuesta correcta="false" id="2">False</respuesta>
+    </id>
+    
+    <id id="sonido2">
+        <multimedia>Grillo.mp3</multimedia>
+        <pregunta tipo="FV">El animal que se escucha es una vaca?</pregunta>
+        <respuesta correcta="true" id="1">True</respuesta>
+        <respuesta correcta="false" id="2">False</respuesta>
+    </id>
+    
+</preguntas>
+  
+

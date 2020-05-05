@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE album [
+   <!ELEMENT album (cancion)*>
+   <!ELEMENT cancion (#PCDATA)>
+      <!ATTLIST cancion numero CDATA #REQUIRED>
+]>
+
+<album>
+  <cancion numero="2">hello</cancion>
+  <cancion numero="3">into you</cancion>
+  <cancion numero="4">havana</cancion>
+    <cancion numero="">remember us</cancion>
+</album>

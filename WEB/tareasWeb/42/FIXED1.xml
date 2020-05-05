@@ -1,0 +1,13 @@
+<!DOCTYPE deportistas [
+   <!ELEMENT deportistas (futbol | f1 | tenis)*>
+   <!ELEMENT futbol (#PCDATA)>
+   <!ELEMENT f1 (#PCDATA)>
+      <!ATTLIST f1 pais CDATA #FIXED "España">
+   <!ELEMENT tenis (#PCDATA)>
+]>
+
+<deportistas>
+   <f1 pais="España">Carlos Sainz</f1>
+   <f1>Fernando Alonso</f1>
+   <tenis>Rafael Nadal</tenis>
+</deportistas>

@@ -1,0 +1,2 @@
+17-Feb-2019 17:04:09.182 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\TWSubidaArchivos.war] de la aplicación web
+17-Feb-2019 17:04:09.592 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\TWSubidaArchivos.war] has finished in [412] ms

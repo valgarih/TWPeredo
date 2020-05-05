@@ -1,0 +1,10 @@
+<!DOCTYPE ToDoList [
+  <!ELEMENT ToDoList (task)*>
+  <!ELEMENT task (#PCDATA)>
+  <!ATTLIST task status (important|normal) #REQUIRED>
+]>
+<ToDoList>
+  <task status="important">This is an important
+    task that must be completed</task>
+  <task status="normal">This task can wait</task>
+</ToDoList>

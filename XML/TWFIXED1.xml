@@ -1,0 +1,9 @@
+<!DOCTYPE address 
+[
+  <!ELEMENT address (company)*>
+  <!ELEMENT company (#PCDATA)>
+  <!ATTLIST company name NMTOKEN #FIXED "tutorialspoint">
+]>
+<address>
+  <company name="tutorialspoint">we are a free online teaching faculty</company>
+</address>q

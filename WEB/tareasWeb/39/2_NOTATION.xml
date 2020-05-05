@@ -1,0 +1,35 @@
+<!DOCTYPE casa
+[
+<!ELEMENT casa (familia)>
+<!ELEMENT familia (invitacion,nummesa,bebida)>
+<!ELEMENT invitacion (invitados)>
+<!ELEMENT invitados (#PCDATA)>
+<!ELEMENT nummesa (#PCDATA)>
+<!ELEMENT bebida (#PCDATA)> 
+
+
+<!ATTLIST familia apellido CDATA #REQUIRED>
+<!ATTLIST invitacion enviada (si|no) #REQUIRED>
+<!ATTLIST invitacion tipo NOTATION (premium|normal) #REQUIRED>
+<!ATTLIST invitacion numinvitacion ID #REQUIRED>
+<!ATTLIST nummesa idnummesa IDREF #REQUIRED>
+<!ATTLIST invitados autorizados NMTOKENS #REQUIRED>
+
+<!ENTITY ron "RONn">
+<!ENTITY cognac "COGNACc">
+
+<!NOTATION premium SYSTEM "invitacion/premium">
+<!NOTATION normal SYSTEM "invitacion/normal">
+]>
+
+<casa>
+  <familia apellido="Medina Fragoso">
+    <invitacion enviada="si" numinvitacion="1234" tipo="premium">
+      <invitados autorizados="valery_garibay brian_soria">
+      </invitados>
+    </invitacion>
+    <nummesa idnummesa="1234">
+    </nummesa>
+    <bebida>&ron;&cognac;</bebida>
+  </familia>
+</casa>

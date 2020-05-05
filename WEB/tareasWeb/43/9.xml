@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE raiz [
+  <!ELEMENT raiz (materia)*>
+  <!ELEMENT materia (#PCDATA)>
+  <!ATTLIST materia nombre NMTOKEN #FIXED "Tecnologías para la Web">
+]>
+<raiz>
+  <materia nombre="Tecnologías para la Web"></materia>
+</raiz>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE RAIZ [
+  <!ELEMENT RAIZ (persona1)>
+   <!ELEMENT persona1 (nombre,apellido,apodo)>
+   <!ELEMENT nombre (#PCDATA)>
+   <!ELEMENT apellido (#PCDATA)>
+ 
+]>
+<RAIZ>
+  <persona1>
+    <nombre>Valery</nombre>
+    <apellido>Garibay Huerta</apellido>
+    </persona1>
+</RAIZ>

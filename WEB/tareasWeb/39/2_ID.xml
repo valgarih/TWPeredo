@@ -1,0 +1,19 @@
+<!DOCTYPE ESCUELA
+[
+<!ELEMENT ESCUELA (#PCDATA, MATERIA+)>
+<!ELEMENT MATERIA (alumno*, matricula?)>
+
+<!ATTLIST MATERIA asignatura CDATA #REQUIRED>
+<!ATTLIST alumno nombre CDATA #REQUIRED>
+<!ATTLIST matricula boleta ID #REQUIRED>
+]>
+
+
+
+<ESCUELA>
+  <MATERIA asignatura="Matematicas">
+  	<alumno nombre="valery"></alumno>
+    <matricula  boleta="2013010477">
+    </matricula>
+  </MATERIA>
+</ESCUELA>

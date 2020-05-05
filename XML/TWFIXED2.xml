@@ -1,0 +1,9 @@
+<!DOCTYPE raiz 
+[
+  <!ELEMENT raiz (nodoB)+>
+  <!ELEMENT nodoB (#PCDATA)>
+  <!ATTLIST nodoB atributo CDATA #FIXED "atributo1">
+]>
+<raiz>
+  <nodoB atributo="atributo1"></nodoB>
+</raiz>

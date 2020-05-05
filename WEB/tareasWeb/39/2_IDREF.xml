@@ -1,0 +1,19 @@
+<!DOCTYPE escuela
+[
+<!ELEMENT escuela (alumno+)>
+<!ELEMENT alumno (asignatura+,curso?)>
+
+<!ATTLIST alumno nombre CDATA #REQUIRED>
+<!ATTLIST asignatura num_curso ID #REQUIRED>
+<!ATTLIST asignatura nombre CDATA #REQUIRED>
+<!ATTLIST curso boleta IDREF #REQUIRED>
+]>
+
+<escuela>
+  <alumno nombre="Yuriko Martinez">
+    <asignatura num_curso="1234" nombre="matematicas">
+    </asignatura>
+    <curso boleta="1234">
+    </curso>
+  </alumno>
+</escuela>

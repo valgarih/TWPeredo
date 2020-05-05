@@ -1,0 +1,4 @@
+﻿<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="esquema4.xsd">
+  <persona><nombre>Brian</nombre>tiene <edad>23</edad> años.</persona>
+  <persona><nombre>valery</nombre>tiene <edad>22</edad> años.</persona>
+</root>

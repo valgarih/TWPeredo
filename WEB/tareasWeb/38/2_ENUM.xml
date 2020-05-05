@@ -1,0 +1,17 @@
+    
+<!DOCTYPE casa
+[
+<!ELEMENT casa (familia)>
+<!ELEMENT familia (invitacion)>
+<!ELEMENT invitacion (#PCDATA)>
+
+<!ATTLIST familia apellido CDATA #REQUIRED>
+<!ATTLIST invitacion enviada (si|no) #REQUIRED>
+]>
+
+<casa>
+  <familia apellido="Garibay Huerta">
+    <invitacion enviada="si">
+    </invitacion>
+  </familia>
+</casa>

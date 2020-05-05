@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE raiz [
+<!ELEMENT raiz (nombre)>
+<!ELEMENT nombre ( #PCDATA )>
+<!ATTLIST nombre telefono CDATA #IMPLIED>
+ ]>
+<raiz>
+   <nombre telefono="5574970711">Valery Garibay</nombre>
+</raiz>

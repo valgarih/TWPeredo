@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+body 
+{
+       font-family: arial;
+       font-size: 30px;
+       color: black;
+       background-color: #cccccc;
+}

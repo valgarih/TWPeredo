@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VolksWagen [
+   <!ELEMENT VolksWagen (modelo+)>
+   <!ELEMENT modelo (#PCDATA)>
+]>
+
+<VolksWagen>
+   <modelo>Golf</modelo>
+   <modelo>Jetta</modelo>
+   <modelo>Caribe</modelo>
+</VolksWagen>

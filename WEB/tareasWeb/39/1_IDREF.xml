@@ -1,0 +1,22 @@
+    
+<!DOCTYPE casa
+[
+<!ELEMENT casa (familia)>
+<!ELEMENT familia (invitacion,nummesa)>
+<!ELEMENT invitacion (#PCDATA)>
+<!ELEMENT nummesa (#PCDATA)>
+
+<!ATTLIST familia apellido CDATA #REQUIRED>
+<!ATTLIST invitacion enviada (si|no) #REQUIRED>
+<!ATTLIST invitacion numinvitacion ID #REQUIRED>
+<!ATTLIST nummesa idnummesa IDREF #REQUIRED>
+]>
+
+<casa>
+  <familia apellido="Yuriko Martinez">
+    <invitacion enviada="si" numinvitacion="1234">
+    </invitacion>
+    <nummesa idnummesa="1234">
+    </nummesa>
+  </familia>
+</casa>

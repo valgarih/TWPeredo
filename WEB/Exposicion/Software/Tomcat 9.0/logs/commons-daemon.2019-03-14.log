@@ -1,0 +1,9 @@
+[2019-03-14 07:33:39] [info]  [ 8868] Commons Daemon procrun (1.1.0.0 64-bit) started
+[2019-03-14 07:33:39] [info]  [ 8868] Running 'Tomcat9' Service...
+[2019-03-14 07:33:40] [info]  [ 6212] Starting service...
+[2019-03-14 07:33:45] [info]  [ 6212] Service started in 5587 ms.
+[2019-04-10 22:39:56] [info]  [14080] Console SHUTDOWN event signaled
+[2019-04-10 22:39:56] [info]  [14080] Stopping service...
+[2019-04-10 22:40:00] [info]  [14080] Service stop thread completed.
+[2019-04-10 22:40:00] [info]  [ 8868] Run service finished.
+[2019-04-10 22:40:01] [info]  [ 8868] Commons Daemon procrun finished

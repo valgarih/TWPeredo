@@ -1,0 +1,14 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="etiqueta" >
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			<!--	<xs:pattern value="[a-zA-Z09][0-9]" /> -->
+			<!--	<xs:pattern value="t?" />  1 o 0 t-->
+			<!--	<xs:pattern value="(ruben)+" /> -->
+			<!--	<xs:pattern value="\d{3}" />  solo 3 digitos-->
+			<!--	<xs:pattern value="\D{3}" /> todo menos decimales-->
+				<xs:pattern value="\W{3}" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,3 @@
+<!ELEMENT raiz(a)>
+<!ELEMENT a(#PCDATA)>
+<!ATTLIST a atributo1 CDATA #REQUIRED>

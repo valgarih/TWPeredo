@@ -1,0 +1,58 @@
+14-Mar-2019 07:34:00.006 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16
+14-Mar-2019 07:34:00.043 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2019 16:30:29 UTC
+14-Mar-2019 07:34:00.043 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:         9.0.16.0
+14-Mar-2019 07:34:00.044 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+14-Mar-2019 07:34:00.044 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Mar-2019 07:34:00.045 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Mar-2019 07:34:00.045 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+14-Mar-2019 07:34:00.045 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+14-Mar-2019 07:34:00.046 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Mar-2019 07:34:00.046 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+14-Mar-2019 07:34:00.047 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+14-Mar-2019 07:34:00.047 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+14-Mar-2019 07:34:00.047 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+14-Mar-2019 07:34:00.047 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 9.0\temp
+14-Mar-2019 07:34:00.047 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Mar-2019 07:34:00.048 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 9.0\conf\logging.properties
+14-Mar-2019 07:34:00.048 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+14-Mar-2019 07:34:00.048 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+14-Mar-2019 07:34:00.048 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+14-Mar-2019 07:34:00.048 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+14-Mar-2019 07:34:00.049 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.21] con la versión APR [1.6.5].
+14-Mar-2019 07:34:00.049 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true].
+14-Mar-2019 07:34:00.049 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14-Mar-2019 07:34:00.929 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1a  20 Nov 2018]
+14-Mar-2019 07:34:03.764 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-9999"]
+
+14-Mar-2019 07:34:04.644 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["ajp-nio-8009"]
+
+14-Mar-2019 07:34:04.651 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [7.882] milliseconds
+14-Mar-2019 07:34:04.990 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+14-Mar-2019 07:34:04.991 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16]
+14-Mar-2019 07:34:05.356 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\ServletUploading.war] de la aplicación web
+14-Mar-2019 07:34:11.430 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\ServletUploading.war] has finished in [6.073] ms
+14-Mar-2019 07:34:11.496 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\TW10GETREALPATH.war] de la aplicación web
+14-Mar-2019 07:34:11.640 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\TW10GETREALPATH.war] has finished in [143] ms
+14-Mar-2019 07:34:11.675 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\TW16XMLREALPATH.war] de la aplicación web
+14-Mar-2019 07:34:13.526 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\TW16XMLREALPATH.war] has finished in [1.852] ms
+14-Mar-2019 07:34:13.570 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\TW17XMLREALPATH2.war] de la aplicación web
+14-Mar-2019 07:34:15.812 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\TW17XMLREALPATH2.war] has finished in [2.242] ms
+14-Mar-2019 07:34:16.404 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\TW19XMLREAD.war] de la aplicación web
+14-Mar-2019 07:34:24.155 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\TW19XMLREAD.war] has finished in [7.751] ms
+14-Mar-2019 07:34:24.250 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\TWSubidaArchivos.war] de la aplicación web
+14-Mar-2019 07:34:24.914 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\TWSubidaArchivos.war] has finished in [664] ms
+14-Mar-2019 07:34:24.915 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\app1] de la aplicación web
+14-Mar-2019 07:34:24.942 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\app1] has finished in [27] ms
+14-Mar-2019 07:34:24.943 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\docs] de la aplicación web
+14-Mar-2019 07:34:25.055 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\docs] has finished in [112] ms
+14-Mar-2019 07:34:25.056 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\examples] de la aplicación web
+14-Mar-2019 07:34:28.725 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\examples] has finished in [3.670] ms
+14-Mar-2019 07:34:28.725 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\host-manager] de la aplicación web
+14-Mar-2019 07:34:28.952 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\host-manager] has finished in [227] ms
+14-Mar-2019 07:34:28.952 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\manager] de la aplicación web
+14-Mar-2019 07:34:29.061 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\manager] has finished in [109] ms
+14-Mar-2019 07:34:29.062 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\ROOT] de la aplicación web
+14-Mar-2019 07:34:29.220 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\ROOT] has finished in [158] ms
+14-Mar-2019 07:34:29.227 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+14-Mar-2019 07:34:29.262 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+14-Mar-2019 07:34:29.267 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [24.615] milliseconds

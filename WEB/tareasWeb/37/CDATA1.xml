@@ -1,0 +1,15 @@
+<!DOCTYPE raiz
+[
+<!ELEMENT raiz (a, b)>
+<!ELEMENT a (#PCDATA)>
+<!ATTLIST nombre CDATA #REQUIRED>
+<!ELEMENT b ANY>
+<!ATTLIST direccion CDATA #REQUIRED>
+<!ATTLIST fax CDATA #IMPLIED>
+]>
+
+<raiz>
+<a nombre="valery"></a>
+<b direccion="felipe angeles"> </b> 
+
+</raiz>

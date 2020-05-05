@@ -1,0 +1,15 @@
+<!DOCTYPE raiz 
+[
+
+
+<!--<!ELEMENT raiz (#PCDATA)>-->
+<!--<!ELEMENT raiz (a,b+) modelo de contenidos, orden, cardinaidad+ >-->
+
+<!ELEMENT raiz (a,b)>
+<!ELEMENT a (#PCDATA)>
+<!ELEMENT b (#PCDATA)>
+]>
+<raiz>
+<a></a>
+<b></b>
+</raiz>

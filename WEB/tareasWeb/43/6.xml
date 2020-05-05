@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base [
+   <!ELEMENT base (profesor,alumno*)>
+   <!ELEMENT profesor (#PCDATA)>
+   <!ELEMENT alumno (#PCDATA)>
+]>
+  <base>
+    <profesor>Peredo</profesor>
+    <alumno>Itzel</alumno>
+    <alumno>Valery</alumno>
+    <alumno>Juan</alumno>
+    <alumno>Brian</alumno>
+  </base>

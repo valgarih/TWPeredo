@@ -1,0 +1,14 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="ide">
+		<xs:restriction base="xs:integer">
+	<!--		<xs:minExclusive value="6" /> no incluye el 6-->
+		<!--	<xs:minInclusive value="6" />  inclute el 6 -->
+		<!--	<xs:maxExclusive value="6" /> no incluye el 6-->
+		<!--	<xs:maxInclusive value="6" /> incluye el 6-->
+		<!--	<xs:totalDigits value="3" />  total de numero de digitod -->
+		<!--	<xs:fractionDigits value="2" />  Se ocupada el ipo xs:decimal y es el maximo de numeros decimales -->
+			<xs:lenght value="6" /> <!-- se ocupa el tipo de dato xs:string-->
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="root" type="ide"/>
+</xs:schema>

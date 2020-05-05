@@ -1,0 +1,13 @@
+<!DOCTYPE raiz
+[
+<!ELEMENT raiz (#PCDATA,mensaje1, mensaje,fechas)>
+<!ATTLIST mensaje1 fecha NMTOKEN #REQUIRED> 
+<!ATTLIST mensaje fecha NMTOKEN #REQUIRED>
+<!ATTLIST fechas Dosfechas NMTOKENS #REQUIRED>
+]>
+
+<raiz>
+	<mensaje1 fecha="14-10"></mensaje1> 
+	<mensaje fecha="15-7"></mensaje>
+	<fechas fecha="15-7 14-10"></fechas>
+</raiz>

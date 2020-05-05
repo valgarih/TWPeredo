@@ -1,0 +1,9 @@
+<!DOCTYPE raiz
+[
+<!ELEMENT raiz(a|b?)+>
+<!ELEMENT a(#PCDATA)>
+<!ELEMENT b(#PCDATA)>
+]>
+<raiz>
+<a></a>
+</raiz>

@@ -1,0 +1,10 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="raiz"> <!--el tipo comlejo se agrega al elemento nombre -->
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="a" type="xs:string" />
+			</xs:sequence>
+			<xs:attribute name="atributo" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

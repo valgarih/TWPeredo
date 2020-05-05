@@ -1,0 +1,10 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="nombre"> <!--el tipo comlejo se agrega al elemento nombre -->
+		<xs:complexType>
+			<xs:sequence> <!-- sequence es la coma del modelo de datos (orden)-->
+				<xs:element name="x" type="xs:string" />
+				<xs:element name="z" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

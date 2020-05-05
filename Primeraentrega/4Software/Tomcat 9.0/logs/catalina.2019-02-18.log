@@ -1,0 +1,2 @@
+18-Feb-2019 07:33:33.601 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\TW10GETREALPATH.war] de la aplicación web
+18-Feb-2019 07:33:33.819 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\TW10GETREALPATH.war] has finished in [218] ms

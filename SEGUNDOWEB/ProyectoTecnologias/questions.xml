@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><preguntas>
+  <id id="Pregunta 1">
+  <multimedia/>
+    <pregunta tipo="multiChoice">Pregunta?</pregunta>
+    <respuesta correcta="true" id="1">Algo</respuesta>
+    <respuesta correcta="false" id="2">Algo2</respuesta>
+    <respuesta correcta="false" id="3">Algo3</respuesta>
+  </id>
+  <id id="Pregunta 2">
+  <multimedia/>
+    <pregunta tipo="multiChoice">Pregunta 2?</pregunta>
+    <respuesta correcta="true" id="1">Algo</respuesta>
+    <respuesta correcta="false" id="2">Algo2</respuesta>
+    <respuesta correcta="true" id="3">Algo3</respuesta>
+  </id>
+  <id id="Pregunta 3">
+  <multimedia/>
+    <pregunta tipo="multiChoice">Pregunta 3?</pregunta>
+    <respuesta correcta="true" id="1">Algo</respuesta>
+    <respuesta correcta="false" id="2">Algo2</respuesta>
+    <respuesta correcta="true" id="3">Algo3</respuesta>
+  </id>
+  
+<id id="prueba2">
+  <multimedia/>
+<pregunta tipo="multiChoice">ABR</pregunta>
+<respuesta correcta="true" id="1">Debe ser true</respuesta>
+<respuesta correcta="false" id="2">Debe ser false</respuesta>
+<respuesta correcta="false" id="3">Debe ser false</respuesta>
+<respuesta correcta="true" id="4">Debe ser true</respuesta>
+</id>
+
+
+<id id="Pregunta 5">
+  <multimedia/>
+<pregunta tipo="multiChoice">x</pregunta>
+<respuesta correcta="true" id="1">true</respuesta>
+<respuesta correcta="false" id="2">false</respuesta>
+</id>
+<id id="Pregunta 6">
+  <multimedia/>
+<pregunta tipo="multiChoice">Â¿CuÃ¡les de estos paÃ­ses se ubican en Europa?</pregunta>
+<respuesta correcta="false" id="1">Uruguay</respuesta>
+<respuesta correcta="true" id="2">EspaÃ±a</respuesta>
+<respuesta correcta="true" id="3">Italia</respuesta>
+<respuesta correcta="false" id="4">Emiratos Ã&#129;rabes Unidos</respuesta>
+<respuesta correcta="true" id="5">PaÃ­ses Bajos</respuesta>
+<respuesta correcta="false" id="6">MÃ©xico</respuesta>
+<respuesta correcta="false" id="7">AfganistÃ¡n</respuesta>
+<respuesta correcta="true" id="8">Alemania</respuesta>
+</id>
+<id id="Pregunta con Imagen">
+<multimedia>goku.jpg</multimedia>
+<pregunta tipo="multiChoice">Â¿CÃ³mo se llama este personaje?</pregunta>
+<respuesta correcta="false" id="1">Vegeta</respuesta>
+<respuesta correcta="false" id="2">Trunks</respuesta>
+<respuesta correcta="true" id="3">GokÃº</respuesta>
+<respuesta correcta="false" id="4">Piccolo</respuesta>
+<respuesta correcta="true" id="5">Kakarotto</respuesta>
+<respuesta correcta="false" id="6">Mr. SatÃ¡n</respuesta>
+</id>
+<id id="Pregunta con MÃºsica">
+<multimedia>Heroes.mp3</multimedia>
+<pregunta tipo="multiChoice">Â¿QuiÃ©n canta esta canciÃ³n?</pregunta>
+<respuesta correcta="false" id="1">Ariana Grande</respuesta>
+<respuesta correcta="false" id="2">Imagine Drangons</respuesta>
+<respuesta correcta="true" id="3">David Bowie</respuesta>
+<respuesta correcta="false" id="4">Frank Sinatra</respuesta>
+<respuesta correcta="false" id="5">Rammstein</respuesta>
+<respuesta correcta="false" id="6">La Tuna de ESCOM</respuesta>
+</id>
+<id id="Pregunta con Video">
+<multimedia>videoplayback.mp4</multimedia>
+<pregunta tipo="multiChoice">Â¿Etiquetas para este video?</pregunta>
+<respuesta correcta="false" id="1">Tutorial</respuesta>
+<respuesta correcta="false" id="2">Hittler</respuesta>
+<respuesta correcta="true" id="3">HÃ©roes del Silencio</respuesta>
+<respuesta correcta="false" id="4">Ciencia</respuesta>
+<respuesta correcta="true" id="5">MÃºsica</respuesta>
+<respuesta correcta="false" id="6">Banda el Recodo</respuesta>
+<respuesta correcta="false" id="7">Queen</respuesta>
+<respuesta correcta="false" id="8">Cocina</respuesta>
+</id>
+</preguntas>

@@ -1,0 +1,10 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="ide">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="7" /><!-- nos permite poner varios valores dentro del esquema-->
+			<xs:enumeration value="8" />
+			<xs:enumeration value="10" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="root" type="ide"/>
+</xs:schema>

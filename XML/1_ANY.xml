@@ -1,0 +1,19 @@
+<!DOCTYPE raiz
+[
+<!ELEMENT raiz (HEAD?, BODY?)>
+<!ELEMENT HEAD (#PCDATA, H2*)>
+<!ELEMENT H2 ANY>
+<!ELEMENT BODY (#PCDATA, H1*, BR*)>
+<!ELEMENT H1 (#PCDATA)>
+<!ELEMENT BR EMPTY>
+]>
+
+<raiz>
+	<HEAD>
+		</H2>
+	</HEAD>
+	<BODY>
+		<H1>HOLAAAAAAAAA</H1>
+		</BR>
+	</BODY>
+</raiz>

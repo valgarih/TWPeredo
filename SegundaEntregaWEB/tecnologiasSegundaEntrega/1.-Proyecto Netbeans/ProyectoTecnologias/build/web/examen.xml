@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<examen>
+  <id id="Examen 1">
+      <pregunta id="Pregunta 1" />
+      <pregunta id="Pregunta 2" />
+      <pregunta id="Pregunta 8" />
+      <pregunta id="Imagen" />
+      <pregunta id="Sonido" />
+      <pregunta id="Video" />
+</id>
+<id id="Examen 2">
+    <pregunta id="Pregunta 2"/>
+    <pregunta id="Video"/>
+  </id>
+</examen>

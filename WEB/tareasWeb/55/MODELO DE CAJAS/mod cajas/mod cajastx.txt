@@ -1,0 +1,62 @@
+padding: 10px;
+
+padding: 10px 20px;
+
+padding: 10px 20px 30px;
+
+padding: 10px 20px 30px 40px;
+
+valores para fondo etc... siguiendo el sentido de las manecillas del reloj
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+body {line-height:0; }  //si no se pone en ceros esta propiedad modifica el modelo de cajas, como que deja espacios
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+MODELO DE CAJAS 2
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>MODELO DE CAJAS</title>
+<style>
+.centro { margin:10px 20px 30px 40px; }
+body {line-height:0; }
+</style>
+</head>
+<body>
+<img src='bordes.jpg'><img src='bordes.jpg'><img src='bordes.jpg'><br>
+<img src='bordes.jpg'><img class='centro' src='centro.jpg'><img src='bordes.jpg'><br>
+<img src='bordes.jpg'><img src='bordes.jpg'><img src='bordes.jpg'>
+</body>
+</html>
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+MODELO DE CAJAS 3
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>MODELO DE CAJAS</title>
+<style>
+.centro 
+{
+border-style:solid;     //margen
+border-color:green;
+border-width:10px 20px 30px 40px;
+}
+body {line-height:0; }
+</style>
+</head>
+<body>
+<img src='bordes.jpg'><img src='bordes.jpg'><img src='bordes.jpg'><br>
+<img src='bordes.jpg'><img class='centro' src='centro.jpg'><img src='bordes.jpg'><br>
+<img src='bordes.jpg'><img src='bordes.jpg'><img src='bordes.jpg'>
+</body>
+</html>
+
+----------------------------------------------------------------
+
+div{display:inline-block;}  NO SALTO DE ln, SINO BLOQUE DE ln

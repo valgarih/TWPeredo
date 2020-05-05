@@ -1,0 +1,10 @@
+<!DOCTYPE raiz
+[
+<!ELEMENT raiz(MyElement)>
+<!ELEMENT MyElement EMPTY>
+<!ATTLIST MyElement myEntityTest ENTITY #REQUIRED>
+<!ENTITY myEntityA "Some Entity Value A">
+<!ENTITY myEntityB "Some Entity Value B">
+]>
+
+<MyElement myEntityTest="myEntityA myEntityB"/>

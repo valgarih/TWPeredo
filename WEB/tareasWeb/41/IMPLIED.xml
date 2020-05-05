@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE address [
+<!ELEMENT address ( name )>
+<!ELEMENT name ( #PCDATA )>
+<!ATTLIST name id CDATA #IMPLIED>
+ ]>
+<address>
+   <name id="">Jardines de Morelos Playasl</name>
+</address>

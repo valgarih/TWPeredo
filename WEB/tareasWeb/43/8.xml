@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE raiz [
+<!ELEMENT raiz (escuela)*>
+<!ELEMENT escuela ( #PCDATA )>
+<!ATTLIST escuela id CDATA #REQUIRED>
+ ]>
+<raiz>
+   <escuela id="9927366">Instituto Politecnico Nacional</escuela>
+   <escuela id="6763454">Universidad Autonoma de Mexicol</escuela>
+</raiz>

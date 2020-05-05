@@ -1,0 +1,7 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name='boda'>
+  <xs:simpleType>
+  <xs:element name='horario' type='xs:time'/>
+  </xs:simpleType>
+</xs:element> 
+</xs:schema>

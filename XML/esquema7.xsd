@@ -1,0 +1,9 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="ide">
+		<xs:restriction base="xs:string">
+		<!--	<xs:pattern value="[a-zA-Z]" /> -->
+			<xs:pattern value="X{0,3}" /> 
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="root" type="ide"/>
+</xs:schema>

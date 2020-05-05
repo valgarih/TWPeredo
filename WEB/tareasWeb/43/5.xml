@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE RAIZ [
+<!ELEMENT RAIZ (Ingenierio*)>
+   <!ELEMENT Doctor (nombre)>
+   <!ELEMENT nombre (#PCDATA)>
+]>
+<RAIZ>
+<Ingenierio>
+   <nombre>Brian</nombre>
+</Ingenierio>
+<Ingenierio>
+   <nombre>Isaac</nombre>
+</Ingenierio>
+</RAIZ>
